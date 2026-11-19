@@ -1,0 +1,23 @@
+{
+  "port": 5690,
+  "monitor_runtime": "<你的 wechat-monitor-runtime 路径>",
+  "accounts": {
+    "wxid_你的账号": {
+      "label": "账号备注"
+    }
+  },
+  "poll_seconds": 15,
+  "quiet_seconds": 120,
+  "daily_time": "19:00",
+  "daily_on": true,
+  "notify_high": true,
+  "recording_keep_days": 30,
+  "nonwatch_scan_minutes": 30,
+  "data_dir": "data",
+  "llm": {
+    "settings_env": "<你的 settings.json 路径>",
+    "base_url": "https://api.example.com/v1",
+    "model": "<模型名>",
+    "max_tokens": 4096
+  }
+}
